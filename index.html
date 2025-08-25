@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jh locações de veiculos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>jh locações de veiculos</h1>
+    <img src="ICONE 2.png" alt="icone" width="400px" height="100px">
+    <input type="text" placeholder="Pesquisar...">
+    <button type="submit">Pesquisar</button>
+    <img id="carros">
+    
+     
+</ul>
+
+<script>
+  function search() {
+    const input = document.getElementById("searchInput").value.toLowerCase();
+    const itens = document.querySelectorAll("#lista li");
+    
+    itens.forEach(item => {
+      const texto = item.textContent.toLowerCase();
+      item.style.display = texto.includes(input) ? "carros" : "none";
+    });
+  }
+</script>
+    <nav>
+      <ul>
+        <li><a href="#carros">Carros</a></li> 
+        <li><a href="#planos">Planos</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#contato">Contato</a></li>
+        <li><a href="#sobre">Sobre Nós</a></li>
+        <li><a href="#localizacao">Localização</a></li>
+        <li><a href="#horario">Horário de Funcionamento</a></li>
+        <li><a href="#redes-sociais">Redes Sociais</a></li>
+        <li><a href="#aluguel-veiculo">Aluguel de Veículo</a></li>
+         </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="carros">
+      <h2>Conheça nossos carros</h2>
+      <div class="carros">
+        <img src="hb20.jpg" alt="hyndai hb20" width="300" height="200">
+        <img src="im500.jpg" alt="hyndai hb20s" width="300" height="200">
+        <img src="creta.webp" alt="hyndai hb20x" width="300" height="200">
+        <img src="sedan.jpeg" alt="hyndai hb20s" width="300" height="200">
+      </div>
+    </section>
+
+
+
+    <section id="planos">
+      <h2>Planos</h2>
+      <img src="ICONE 2.png" alt="icone planos" width="200px" height="100px">
+      <ul>
+        <li>Plano Básico: R$ 1.000 calção + 650,00 semanal, km livre</li> 
+        <li>Plano Intermediário: R$ 1.000 calção + 750,00 semanal ,km livre</li>
+        <li>Plano Premium: R$ 1.500 calção + 850 semanal, km livre</li>   
+        <li>Plano Executivo: R$ 2.000 calçaão + 1.000 semanal, categoria black ,km livre</li>
+      </ul>
+    </section>
+
+    <section id="contato">
+      <h2>Contato</h2>
+      <a href="https://wa.me/5511910453395" target="_blank">WhatsApp</a><img src="ICONE 2.png" alt="icone whatsapp" width="250px" height="100px">
+      <p>Telefone: (11) 910453395</p>
+      <p>Email:braskorportariaelimpeza@gmail.com</p>
+    </section>
+
+
+    <section id="sobre">
+      <h2>Sobre Nós</h2>
+      <p>jh locações de veiculos é uma empresa especializada na locação de veículos, oferecendo uma ampla gama de opções para atender às suas necessidades. Com anos de experiência no mercado, garantimos qualidade, segurança e conforto em todos os nossos serviços.</p>
+      <p>Estamos localizados em Guarulhos, SP, e atendemos a região metropolitana de São Paulo.</p>
+      <p>Nosso objetivo é proporcionar a melhor experiência de locação de veículos, com atendimento personalizado e soluções flexíveis para cada cliente.</p>
+
+
+
+    <section id="servicos">
+    <p>locaçao de veiculos</p>
+      <ul>
+        <li>Locação de veículos</li>
+        <li>Manutenção de veículos</li>
+        <li>Entrega e retirada de veículos</li>
+        <li>Seguro para locação</li>
+        <li>Assistência 24 horas</li>
+        <li>Serviço de limpeza de veículos</li>
+        <li>Locação de veículos para eventos</li>
+        <li>Locação de veículos para viagens</li>
+        <li>Locação de veículos para empresas</li>
+      </ul> 
+    </section>
+  </main>
+  <section id="localizacao">
+    <h2>Localização</h2>
+    <p>Rua mogeiro, 33 - Guarulhos, SP</p>
+   <p> jd cumbica proximo a base area </p>
+   <img src="Logo Oficial - JH - V01.png" alt="Logo JH Locações" width="200px" height="200px">
+   <img src="logao.jpeg" alt="Logo JH Locações" width="200px" height="200px">
+   <img src="Logo Oficial - JH v0.png" alt="Logo JH Locações" width="200px" height="200px">
+   
+   <iframe src="https://www.google.com/maps/?q=rua+mogeiro+33,+paes+de+barros,+guarulhos,+sp&output=embed" width="600" height="220" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+   
+  </section>
+  <section id="horario">
+    <h2>Horário de Funcionamento</h2>
+    <p>Segunda a Sexta: 08:00 - 18:00</p>
+    <p>Sábado: 09:00 - 14:00</p>
+    <p>Domingo: Fechado</p>
+  </section>
+  <section id="redes-sociais">
+    <h2>Redes Sociais</h2>
+    <p>Facebook: <a href="https://www.facebook.com/jhlocacoes">jh locações de veiculos</a></p>
+    <p>Instagram: <a href="https://www.instagram.com/jhlocacoes">jh_locacoes</a></p>
+    <p>Twitter: <a href="https://www.twitter.com/jhlocacoes">jh_locacoes</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/company/jhlocacoes">jh locações de veiculos</a></p>
+  </section>
+  <section id="aluguel-veiculo">
+    <h2>Para alugar um veículo</h2>
+    <img src="ICONE 2.png" alt="alugar veiculo" width="350px" height="100px">
+    <ul>
+      <h1>Verifique os requisitos:</h1>
+      <ul>
+        <li>Ser maior de 18 anos</li>
+        <li>Ter CNH (Carteira Nacional de Habilitação) válida</li>
+        <li>Apresentar antecedentes criminais</li>
+        <li>Apresentar documentos pessoais (RG, CPF)</li>
+        <li>Ter um cartão de crédito para caução se for terceiro</li>
+        <li>Residir na região metropolitana de São Paulo</li>
+        <li>Ter um comprovante de residência recente</li>
+        <li>Aplicativo 99, Uber ativo</li>
+      </ul>
+      <li>Escolha o veículo desejado</li>
+      <li>Preencha o formulário de locação</li>
+      <li>Confirme a disponibilidade</li>
+      <li>Realize o pagamento</li>
+      <li>Retire o veículo na data agendada</li>
+    </ul>
+  </section>
+</body>
+
+
+<h1>jh locações de veiculos</h1>
+      <h2>Conheça nossos carros</h2>
+
+
+     
+         <img src="hb20.jpg" alt="hyndai hb20" width="300" height="200">
+          <img src="im500.jpg" alt="hyndai hb20s" width="300" height="200">
+          <img src="creta.webp" alt="hyndai hb20x" width="300" height="200">
+          <img src="sedan.jpeg" alt="hyndai hb20s" width="300" height="200">
+
+          <h2>planos</h2>
+      <ul>
+        <li>Plano Básico: R$ 99,00 por dia</li>
+        <li>Plano Intermediário: R$ 149,00 por dia</li>
+        <li>Plano Premium: R$ 199,00 por dia</li>
+        <li>Plano Executivo: R$ 249,00 por dia</li>
+
+      <h2>Conheça nossos serviços</h2>
+      <ul>
+        <li>Locação de veículos</li>
+        <li>Manutenção de veículos</li>     
+        <li>Entrega e retirada de veículos</li>
+        <li>Seguro para locação</li>
+        <li>Assistência 24 horas</li>
+        <li>Serviço de limpeza de veículos</li>
+        <li>Locação de veículos para eventos</li>
+        <li>Locação de veículos para viagens</li>
+        <li>Locação de veículos para empresas</li>
+      
+      </ul>
+      <h2>Contato</h2>
+      <a href="https://wa.me/5511910453395" target="_blank">Clique aqui para entrar em contato via WhatsApp</a>
+      <p>Telefone: (11) 910453395</p>
+      <p>Email:braskorportariaelimpeza@gmail.com</p>
+      <h2>jd cumbica</h2>
+      <p>Rua mogeiro, 33 - guarulhos, SP</p>
+      <h2>Horário de Funcionamento</h2>   
+      <p>Segunda a Sexta: 08:00 - 18:00</p>
+      <p>Sábado: 09:00 - 14:00</p>
+      <p>Domingo: Fechado</p>
+      <h2>Redes Sociais</h2>
+      <p>Facebook: <a href="https://www.facebook.com/jhlocacoes">jh locações de veiculos</a></p>
+      <p>Instagram: <a href="https://www.instagram.com/jhlocacoes">jh_locacoes</a></p>
+      <p>Twitter: <a href="https://www.twitter.com/jhlocacoes">jh_locacoes</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/company/jhlocacoes">jh locações de veiculos</a></p>
+      <h2>Sobre Nós</h2>
+      <p>jh locações de veiculos é uma empresa especializada na locação de veículos, oferecendo uma ampla gama de opções para atender às suas necessidades. Com anos de experiência no mercado, garantimos qualidade, segurança e conforto em todos os nossos serviços.</p>
+      <p>entre em contato e confira tire todas as suas duvidas com nosso time jh</p>
+      <p>Estamos localizados em Guarulhos, SP, e atendemos a região metropolitana de São Paulo.</p>
+      <p>Nosso objetivo é proporcionar a melhor experiência de locação de veículos, com atendimento personalizado e soluções flexíveis para cada cliente.</p>
+      
+
+      <h2>para alugar um  veiculo</h2>
+      <img src="ICONE 2.png" alt="alugar veiculo" width="350px" height="100px">
+      
+      <ul>
+        <li>Verifique os requisitos:</li>
+   
+      <ul>
+        <li>ser maior de 18 anos</li>
+        <li>ter CNH (Carteira Nacional de Habilitação) válida</li>
+        <li>apresentar comprovante de renda ou emprego</li>
+        <li>apresentar documentos pessoais (RG, CPF)</li>
+        <li>ter um cartão de crédito para caução se for terceiro</li>
+        <li>residir na região metropolitana de São Paulo</li>
+        <li>ter um comprovante de residência recente</li>
+        <li>aplicativo 99,uber ativo</li>
+
+      </ul>
+        <li>Escolha o veículo desejado</li>
+        <li>Preencha o formulário de locação</li>
+        <li>Confirme a disponibilidade</li>
+        <li>Realize o pagamento</li>
+        <li>Retire o veículo na data agendada</li>
+      </ul>
+
+      <div style="text-align: center;">
+        <img src="ICONE 2.png" alt="icone" width="350px" height="100px">
+        </div>
+
+        <style>
+        body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 0;
+          background-color: #fc0499;
+        }
+        header {
+          background-color: #333;
+          color: white;
+          padding: 10px 0;
+          text-align: center;
+        }
+
+        nav ul {
+          list-style: none;
+          padding: 0;
+        }
+        nav ul li {
+          display: inline;
+          margin: 0 15px;
+        }
+        nav ul li a {
+          color: white;
+          text-decoration: none;
+        }
+        section {
+          padding: 20px;
+          background-color: rgb(183, 14, 14);
+          margin: 20px auto;
+          max-width: 800px;
+          border-radius: 5px;
+          box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        } 
+        .carros img {
+          margin: 10px;
+          border-radius: 5px;
+        }
+        h2 {
+          color: #333;
+        }
+        ul {
+          list-style-type: none;
+          padding: 0;
+        }
+        ul li {
+          margin: 5px 0;
+        }
+        a {
+          color: #007BFF;
+          text-decoration: none;
+        }
+        a:hover {
+          text-decoration: underline;
+        }
+        footer {
+          text-align: center;
+          padding: 20px;
+          background-color: #333;
+          color: white;
+          position: relative;
+          bottom: 0;
+          width: 100%;
+        }
+        </style>
+        <footer>
+          <p>&copy; 2023 jh locações de veiculos. Todos os direitos reservados.</p>
+
+          
+            <style>
+              h1, h2 {
+                color: #0303fb;
+              } 
+            </style>
+
+            <style>
+              li
+              {
+                color: #f50303;
+                font-size: 16px;
+              }
+            </style>
+              
+              <style>
+              p {
+                color: #0ecb66;
+                font-size: 16px;
+              }
+              </style>
+
+              <style>
+                nav ul li a {
+                  color: #07faba;
+                  font-weight: bold;
+                }
+              </style>
+
+         <title>minha pagina com marca d'alugar</title>
+        <style>
+          body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+          }
+          header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+          }
+          nav ul {
+            list-style: none;
+            padding: 0;
+          }
+          nav ul li {
+            display: inline;
+            margin: 0 15px;
+          }
+          nav ul li a {
+            color: white;
+            text-decoration: none;
+          }
+          section {
+            padding: 20px;
+            background-color: white;
+            margin: 20px auto;
+            max-width: 800px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+          } 
+          .carros img {
+            margin: 10px;
+            border-radius: 5px;
+          }
+          h2 {
+            color: #333;
+          }
+          ul {
+            list-style-type: none;
+            padding: 0;
+          }
+          ul li {
+            margin: 5px 0;
+          }
+          a {
+            color: #007BFF;
+            text-decoration: none;
+          }
+          a:hover {
+            text-decoration: underline;
+          }
+
+        </style>
+
+<style>
+    body {
+      background: url('logo versões-branca-jh.png') no-repeat center center;
+      background-size: 300px;
+      background-attachment: fixed;
+      background-color: #75ea9c; /* cor de fundo da página */
+      font-family: Arial, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <footer>
+    <p>&copy; 2023 jh locações de veiculos. Todos os direitos reservados.</p>
+  </footer> 
+
+
+       
+
+
+         
+
+          
+
+
+
+     
+
+      
+</body>
+</html>
